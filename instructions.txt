@@ -1,3 +1,6 @@
- ###first
-
+first of all go to the Create_dataset_from_webcam.py file then take some 1000 images for each person you want. the images will be stored in folders 0 , 1 (you can add more if you want more than 2 people) . just remember to make changes in the folder name in the Create_dataset_from_webcam.py file each time you take images of new person. you can quit taking images by pressing 'q'.
+second , run the faceRecognition.py file . it has all the functions which will be called during the testing.
+third, run the resizeImages.py . it will resize all the images in the  0 , 1 and so on sub folders inside the training folder. it will resize them to 100*100 pixels.
+fourth, run the test.py file and wait for some time. once done , you will see a rectangle on the face image fed for test. remember to put that image in the TestImages folder.
+finally, run the  	videoTester.py file. you can see your faces detected. the faces in the folders 0 , 1,... will be recognized.
 
